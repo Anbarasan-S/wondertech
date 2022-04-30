@@ -1,0 +1,20 @@
+.navbar {
+  background-color: wheat;
+}
+.btn:hover
+{
+  background-color: black;
+}
+.topbtn:hover
+{
+  color: wheat;
+  /* background-color: white; */
+}
+.caro
+{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=style.css.map */

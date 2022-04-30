@@ -1,0 +1,14 @@
+
+@import '../node_modules/bootstrap/scss/_functions';
+@import '../node_modules/bootstrap/scss/_variables';
+
+$custom-theme-colors:(
+    "lightblack":rgba(0, 0, 0, 0.3),
+    "blue":blue,
+    "green":green
+);
+
+$theme-colors:map-merge($custom-theme-colors,$theme-colors);
+
+
+@import '../node_modules/bootstrap/scss/bootstrap';
