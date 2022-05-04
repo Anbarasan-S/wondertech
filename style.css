@@ -1,5 +1,37 @@
-.navbar {
-  background-color: wheat;
+
+@media screen and (max-width: 2000px) and (min-width: 800px){
+  .crd
+  {
+    width:15rem;
+    margin-left: 2rem;
+  }
+  .strt
+  {
+    margin-left: 20rem;
+  }
+}
+/* @media only screen and (max-width: 600px) {
+  .strt
+  {
+    margin-left: 2rem;
+  }
+  .crd
+  {
+    width:25rem;
+  }
+} */
+@media  screen and (max-width:500px)  and (min-width:200px)
+{
+  .crd
+  {
+    margin-left: 2rem;
+    margin-top: 1rem;
+  }
+}
+
+.carousell
+{
+  margin-left:2rem;
 }
 .btn:hover
 {
@@ -8,14 +40,6 @@
 .topbtn:hover
 {
   color: wheat;
-  /* background-color: white; */
-}
-.caro
-{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  vertical-align: middle;
 }
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -47,5 +71,8 @@
   background-color: black !important;
 }
 
-
-/*# sourceMappingURL=style.css.map */
+/* .what_we_cover
+{
+  margin-left:20rem;
+  margin-bottom: 2rem;
+} */
